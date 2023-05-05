@@ -2,7 +2,7 @@
   "name": "assetman",
   "version": "1.0.0",
   "description": "An asset manager solution for those who don't like spending money.",
-  "main": "backend/src/app.ts",
+  "main": "src/backend/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,21 @@
     "type": "git",
     "url": "https://git.jetbrains.space/sdstudios/sds-bot-suite/AssetMan.git"
   },
+  "type": "commonjs",
   "author": "Abigail Henderson/WhizBangPop",
-  "license": "AGPL-3.0-or-later"
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "eslint": "^8.39.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "koa": "^2.14.2"
+  }
 }
